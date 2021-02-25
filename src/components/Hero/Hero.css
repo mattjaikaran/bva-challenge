@@ -1,0 +1,67 @@
+.carousel-caption {
+  top: 10%;
+}
+
+h3 {
+  font-weight: 700;
+}
+
+.btn-success {
+  background-color: #57AD68 !important;
+  font-size: 20px !important;
+  padding: 10px 30px !important;
+  border-radius: 2rem !important;
+}
+.btn-success:hover {
+  background-color: #FFFFFF !important;
+  border-color: #FFFFFF !important;
+  color: #57AD68 !important;
+}
+
+p {
+  font-weight: 300;
+}
+
+.heroText {
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  h3 {
+    font-size: 36px !important;
+  }
+  p {
+    font-size: 18px;
+  }
+  .heroText, .heroTextTwo, .heroTextThree {
+    text-align: center;
+  }
+}
+
+@media (min-width: 768px) {
+  h3 {
+    font-size: 46px !important;
+  }
+  p {
+    font-size: 24px;
+  }
+  .heroText {
+    padding: 0 17%;
+  }
+  .carouselImg {
+    width: 100%;
+  }
+  .heroTextTwo {
+    text-align: left;
+  }
+
+  .heroTextThree {
+    text-align: left;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .carouselImg {
+    height: 600px;
+  }
+}
